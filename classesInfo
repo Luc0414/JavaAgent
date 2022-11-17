@@ -1,0 +1,1490 @@
+class ==> com.sun.tools.attach.AttachOperationFailedException
+	Modifiable ==> true
+class ==> sun.tools.attach.WindowsVirtualMachine$PipedInputStream
+	Modifiable ==> true
+class ==> sun.tools.attach.HotSpotAttachProvider$HotSpotVirtualMachineDescriptor
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.AliasFileParser$Token
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.AliasFileParser
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.PerfStringVariableMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.PerfStringConstantMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.PerfStringMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.PerfByteArrayMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.ByteArrayMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.StringMonitor
+	Modifiable ==> true
+class ==> [Lsun.jvmstat.perfdata.monitor.v2_0.TypeCode;
+	Modifiable ==> false
+class ==> sun.jvmstat.perfdata.monitor.v2_0.TypeCode
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.PerfLongMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.LongMonitor
+	Modifiable ==> true
+class ==> [Lsun.jvmstat.monitor.Variability;
+	Modifiable ==> false
+class ==> sun.jvmstat.monitor.Variability
+	Modifiable ==> true
+class ==> [Lsun.jvmstat.monitor.Units;
+	Modifiable ==> false
+class ==> sun.jvmstat.monitor.Units
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.PerfIntegerMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.AbstractMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.IntegerMonitor
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.MonitoredVmUtil
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.v2_0.PerfDataBufferPrologue
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.MonitorTypeException
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.Monitor
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.MonitorDataException
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.MonitorStructureException
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.SyntaxException
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.v2_0.PerfDataBuffer
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.PerfDataBufferImpl
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.MonitorVersionException
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.AbstractPerfDataBufferPrologue
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.LocalMonitoredVm$NotifierTask
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.PerfDataBuffer
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.AbstractPerfDataBuffer
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.LocalMonitoredVm
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.AbstractMonitoredVm
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.remote.BufferedMonitoredVm
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.VmIdentifier
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.LocalVmManager$3
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.LocalVmManager$2
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.LocalVmManager$1
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.PerfDataFile
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.LocalVmManager
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.LocalEventTimer
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.MonitoredHostProvider$NotifierTask
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.CountedTimerTask
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.MonitoredVm
+	Modifiable ==> true
+class ==> sun.jvmstat.perfdata.monitor.protocol.local.MonitoredHostProvider
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.MonitorException
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.MonitoredHost
+	Modifiable ==> true
+class ==> sun.jvmstat.monitor.HostIdentifier
+	Modifiable ==> true
+class ==> sun.tools.attach.WindowsVirtualMachine
+	Modifiable ==> true
+class ==> sun.tools.attach.HotSpotVirtualMachine
+	Modifiable ==> true
+class ==> sun.tools.attach.WindowsAttachProvider
+	Modifiable ==> true
+class ==> sun.tools.attach.HotSpotAttachProvider
+	Modifiable ==> true
+class ==> com.sun.tools.attach.AttachPermission
+	Modifiable ==> true
+class ==> com.sun.tools.attach.AgentInitializationException
+	Modifiable ==> true
+class ==> com.sun.tools.attach.AgentLoadException
+	Modifiable ==> true
+class ==> com.sun.tools.attach.spi.AttachProvider
+	Modifiable ==> true
+class ==> com.sun.tools.attach.AttachNotSupportedException
+	Modifiable ==> true
+class ==> com.sun.tools.attach.VirtualMachineDescriptor
+	Modifiable ==> true
+class ==> com.sun.tools.attach.VirtualMachine
+	Modifiable ==> true
+class ==> com.luc.agentmain.agentmain
+	Modifiable ==> true
+class ==> com.luc.AgentMainDemo.TestAgentMain
+	Modifiable ==> true
+class ==> com.intellij.rt.execution.application.AppMainV2$1
+	Modifiable ==> true
+class ==> com.intellij.rt.execution.application.AppMainV2
+	Modifiable ==> true
+class ==> com.intellij.rt.execution.application.AppMainV2$Agent
+	Modifiable ==> true
+class ==> java.util.Random
+	Modifiable ==> true
+class ==> java.lang.SecurityException
+	Modifiable ==> true
+class ==> java.io.StreamTokenizer
+	Modifiable ==> true
+class ==> java.net.URLClassLoader$2
+	Modifiable ==> true
+class ==> java.util.TreeMap$ValueIterator
+	Modifiable ==> true
+class ==> java.util.TreeMap$PrivateEntryIterator
+	Modifiable ==> true
+class ==> java.util.TreeMap$Values
+	Modifiable ==> true
+class ==> java.nio.DirectIntBufferU
+	Modifiable ==> true
+class ==> java.nio.HeapIntBuffer
+	Modifiable ==> true
+class ==> java.nio.IntBuffer
+	Modifiable ==> true
+class ==> java.net.MalformedURLException
+	Modifiable ==> true
+class ==> sun.misc.Perf$1
+	Modifiable ==> true
+class ==> java.util.regex.ASCII
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Branch
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$BranchConn
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Ques
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Single
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$GroupTail
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Dollar
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$1
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$BitClass
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Begin
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$SliceS
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Curly
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$CharProperty$1
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Ctype
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$BmpCharProperty
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$CharProperty
+	Modifiable ==> true
+class ==> sun.misc.VMSupport
+	Modifiable ==> true
+class ==> java.lang.NumberFormatException
+	Modifiable ==> true
+class ==> java.io.FilenameFilter
+	Modifiable ==> true
+class ==> java.util.Timer
+	Modifiable ==> true
+class ==> java.util.TimerTask
+	Modifiable ==> true
+class ==> java.lang.AssertionError
+	Modifiable ==> true
+class ==> java.lang.InstantiationException
+	Modifiable ==> true
+class ==> java.lang.IllegalAccessException
+	Modifiable ==> true
+class ==> java.net.URISyntaxException
+	Modifiable ==> true
+class ==> java.net.UnknownHostException
+	Modifiable ==> true
+class ==> sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream
+	Modifiable ==> true
+class ==> sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry
+	Modifiable ==> true
+class ==> sun.net.www.protocol.jar.URLJarFile
+	Modifiable ==> true
+class ==> sun.net.www.protocol.jar.JarFileFactory
+	Modifiable ==> true
+class ==> sun.net.www.protocol.jar.URLJarFile$URLJarFileCloseController
+	Modifiable ==> true
+class ==> sun.net.www.protocol.jar.JarURLConnection
+	Modifiable ==> true
+class ==> java.net.JarURLConnection
+	Modifiable ==> true
+class ==> java.net.URLClassLoader$3$1
+	Modifiable ==> true
+class ==> java.security.PrivilegedActionException
+	Modifiable ==> true
+class ==> java.io.FileNotFoundException
+	Modifiable ==> true
+class ==> sun.misc.CompoundEnumeration
+	Modifiable ==> true
+class ==> java.net.URLClassLoader$3
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$1
+	Modifiable ==> true
+class ==> java.lang.ClassLoader$2
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$2
+	Modifiable ==> true
+class ==> sun.misc.Launcher$BootClassPathHolder$1
+	Modifiable ==> true
+class ==> sun.misc.Launcher$BootClassPathHolder
+	Modifiable ==> true
+class ==> [Ljava.util.Enumeration;
+	Modifiable ==> false
+class ==> java.util.LinkedHashMap$LinkedEntryIterator
+	Modifiable ==> true
+class ==> java.util.LinkedHashMap$LinkedHashIterator
+	Modifiable ==> true
+class ==> java.util.LinkedHashMap$LinkedEntrySet
+	Modifiable ==> true
+class ==> java.util.ServiceLoader$1
+	Modifiable ==> true
+class ==> java.util.ServiceLoader$LazyIterator
+	Modifiable ==> true
+class ==> java.util.ServiceLoader
+	Modifiable ==> true
+class ==> java.io.IOException
+	Modifiable ==> true
+class ==> sun.nio.cs.US_ASCII$Decoder
+	Modifiable ==> true
+class ==> java.net.SocketInputStream
+	Modifiable ==> true
+class ==> java.net.Socket$2
+	Modifiable ==> true
+class ==> sun.net.NetHooks
+	Modifiable ==> true
+class ==> java.util.ArrayList$Itr
+	Modifiable ==> true
+class ==> [Ljava.net.Proxy$Type;
+	Modifiable ==> false
+class ==> java.net.Proxy$Type
+	Modifiable ==> true
+class ==> java.net.Proxy
+	Modifiable ==> true
+class ==> sun.net.spi.DefaultProxySelector$3
+	Modifiable ==> true
+class ==> sun.net.spi.DefaultProxySelector$NonProxyInfo
+	Modifiable ==> true
+class ==> java.net.URI$Parser
+	Modifiable ==> true
+class ==> java.net.URI
+	Modifiable ==> true
+class ==> java.util.regex.Matcher
+	Modifiable ==> true
+class ==> java.util.regex.MatchResult
+	Modifiable ==> true
+class ==> java.util.Properties$LineReader
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$TreeInfo
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Start
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$BnM
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Slice
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$SliceNode
+	Modifiable ==> true
+class ==> sun.net.NetProperties$1
+	Modifiable ==> true
+class ==> [Ljava.util.regex.Pattern$GroupHead;
+	Modifiable ==> false
+class ==> [Ljava.util.regex.Pattern$Node;
+	Modifiable ==> false
+class ==> java.util.regex.Pattern$GroupHead
+	Modifiable ==> true
+class ==> sun.net.NetProperties
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$LastNode
+	Modifiable ==> true
+class ==> sun.net.spi.DefaultProxySelector$1
+	Modifiable ==> true
+class ==> [[Ljava.lang.String;
+	Modifiable ==> false
+class ==> [[Ljava.io.Serializable;
+	Modifiable ==> false
+class ==> [[Ljava.lang.Comparable;
+	Modifiable ==> false
+class ==> [[Ljava.lang.CharSequence;
+	Modifiable ==> false
+class ==> [[Ljava.lang.Object;
+	Modifiable ==> false
+class ==> java.util.regex.Pattern$4
+	Modifiable ==> true
+class ==> sun.net.spi.DefaultProxySelector
+	Modifiable ==> true
+class ==> java.util.regex.Pattern$Node
+	Modifiable ==> true
+class ==> java.net.ProxySelector
+	Modifiable ==> true
+class ==> java.net.SocksSocketImpl$3
+	Modifiable ==> true
+class ==> java.util.regex.Pattern
+	Modifiable ==> true
+class ==> java.net.Inet6Address$Inet6AddressHolder
+	Modifiable ==> true
+class ==> java.net.Inet6Address
+	Modifiable ==> true
+class ==> java.lang.Void
+	Modifiable ==> true
+class ==> java.net.DualStackPlainSocketImpl
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal$ASCIIToBinaryBuffer
+	Modifiable ==> true
+class ==> java.lang.Class$MethodArray
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal$PreparedASCIIToBinaryBuffer
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal$ASCIIToBinaryConverter
+	Modifiable ==> true
+class ==> sun.launcher.LauncherHelper$FXHelper
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal$1
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal$BinaryToASCIIBuffer
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal$ExceptionalBinaryToASCIIBuffer
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal$BinaryToASCIIConverter
+	Modifiable ==> true
+class ==> sun.misc.FloatingDecimal
+	Modifiable ==> true
+class ==> java.net.PlainSocketImpl$1
+	Modifiable ==> true
+class ==> java.net.NetworkInterface
+	Modifiable ==> true
+class ==> java.net.StandardSocketOptions$StdSocketOption
+	Modifiable ==> true
+class ==> java.net.StandardSocketOptions
+	Modifiable ==> true
+class ==> java.util.HashMap$KeyIterator
+	Modifiable ==> true
+class ==> java.util.HashMap$HashIterator
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$FileLoader$1
+	Modifiable ==> true
+class ==> java.util.HashMap$KeySet
+	Modifiable ==> true
+class ==> java.util.Collections$UnmodifiableCollection$1
+	Modifiable ==> true
+class ==> jdk.net.ExtendedSocketOptions$1
+	Modifiable ==> true
+class ==> java.util.Collections$UnmodifiableSet
+	Modifiable ==> true
+class ==> [Lsun.launcher.LauncherHelper;
+	Modifiable ==> false
+class ==> jdk.net.ExtendedSocketOptions$PlatformSocketOptions$1
+	Modifiable ==> true
+class ==> sun.launcher.LauncherHelper
+	Modifiable ==> true
+class ==> jdk.net.ExtendedSocketOptions$PlatformSocketOptions
+	Modifiable ==> true
+class ==> jdk.net.SocketFlow
+	Modifiable ==> true
+class ==> jdk.net.ExtendedSocketOptions$ExtSocketOption
+	Modifiable ==> true
+class ==> java.net.SocketOption
+	Modifiable ==> true
+class ==> jdk.net.ExtendedSocketOptions
+	Modifiable ==> true
+class ==> java.io.FileOutputStream$1
+	Modifiable ==> true
+class ==> sun.net.ExtendedSocketOptions
+	Modifiable ==> true
+class ==> java.net.AbstractPlainSocketImpl$1
+	Modifiable ==> true
+class ==> java.net.SocksSocketImpl
+	Modifiable ==> true
+class ==> java.net.PlainSocketImpl
+	Modifiable ==> true
+class ==> java.net.AbstractPlainSocketImpl
+	Modifiable ==> true
+class ==> java.net.SocketImpl
+	Modifiable ==> true
+class ==> java.net.SocketOptions
+	Modifiable ==> true
+class ==> java.net.SocksConsts
+	Modifiable ==> true
+class ==> java.net.Inet4Address
+	Modifiable ==> true
+class ==> sun.usagetracker.UsageTrackerClient$3
+	Modifiable ==> true
+class ==> [Ljava.net.InetAddress;
+	Modifiable ==> false
+class ==> sun.usagetracker.UsageTrackerClient$2
+	Modifiable ==> true
+class ==> java.net.InetAddress$2
+	Modifiable ==> true
+class ==> sun.net.spi.nameservice.NameService
+	Modifiable ==> true
+class ==> sun.usagetracker.UsageTrackerClient$4
+	Modifiable ==> true
+class ==> java.net.Inet6AddressImpl
+	Modifiable ==> true
+class ==> java.net.InetAddressImpl
+	Modifiable ==> true
+class ==> sun.usagetracker.UsageTrackerClient$1
+	Modifiable ==> true
+class ==> java.util.concurrent.atomic.AtomicBoolean
+	Modifiable ==> true
+class ==> java.net.InetAddressImplFactory
+	Modifiable ==> true
+class ==> sun.usagetracker.UsageTrackerClient
+	Modifiable ==> true
+class ==> [Ljava.net.InetAddress$Cache$Type;
+	Modifiable ==> false
+class ==> java.net.InetAddress$Cache$Type
+	Modifiable ==> true
+class ==> java.net.InetAddress$Cache
+	Modifiable ==> true
+class ==> java.net.InetAddress$InetAddressHolder
+	Modifiable ==> true
+class ==> sun.misc.PostVMInitHook$1
+	Modifiable ==> true
+class ==> jdk.internal.util.EnvUtils
+	Modifiable ==> true
+class ==> sun.misc.PostVMInitHook$2
+	Modifiable ==> true
+class ==> sun.misc.PostVMInitHook
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandleStatics$1
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandleStatics
+	Modifiable ==> true
+class ==> java.lang.invoke.MemberName$Factory
+	Modifiable ==> true
+class ==> java.lang.ClassValue$Version
+	Modifiable ==> true
+class ==> java.lang.ClassValue$Identity
+	Modifiable ==> true
+class ==> java.net.InetAddress$1
+	Modifiable ==> true
+class ==> [Ljava.lang.ClassValue$Entry;
+	Modifiable ==> false
+class ==> java.lang.ClassValue$Entry
+	Modifiable ==> true
+class ==> sun.security.action.GetBooleanAction
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandleImpl$4
+	Modifiable ==> true
+class ==> java.lang.ClassValue
+	Modifiable ==> true
+class ==> java.net.InetSocketAddress$InetSocketAddressHolder
+	Modifiable ==> true
+class ==> [Ljava.lang.invoke.MethodHandle;
+	Modifiable ==> false
+class ==> java.lang.invoke.MethodHandleImpl$3
+	Modifiable ==> true
+class ==> java.net.InetAddress
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandleImpl$2
+	Modifiable ==> true
+class ==> java.util.function.Function
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandleImpl$1
+	Modifiable ==> true
+class ==> java.net.InetSocketAddress
+	Modifiable ==> true
+class ==> java.net.SocketAddress
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandleImpl
+	Modifiable ==> true
+class ==> java.net.Socket
+	Modifiable ==> true
+class ==> [Ljava.security.ProtectionDomain;
+	Modifiable ==> false
+class ==> java.util.concurrent.ConcurrentHashMap$ForwardingNode
+	Modifiable ==> true
+class ==> java.lang.reflect.InvocationTargetException
+	Modifiable ==> true
+class ==> java.lang.NoSuchMethodException
+	Modifiable ==> true
+class ==> sun.reflect.DelegatingMethodAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.NativeMethodAccessorImpl
+	Modifiable ==> true
+class ==> sun.instrument.InstrumentationImpl$1
+	Modifiable ==> true
+class ==> [Ljava.lang.reflect.Method;
+	Modifiable ==> false
+class ==> java.security.BasicPermissionCollection
+	Modifiable ==> true
+class ==> java.security.UnresolvedPermission
+	Modifiable ==> true
+class ==> java.security.AllPermission
+	Modifiable ==> true
+class ==> java.io.FilePermissionCollection
+	Modifiable ==> true
+class ==> java.io.FilePermission$1
+	Modifiable ==> true
+class ==> java.io.FilePermission
+	Modifiable ==> true
+class ==> sun.net.www.MessageHeader
+	Modifiable ==> true
+class ==> sun.net.www.protocol.file.FileURLConnection
+	Modifiable ==> true
+class ==> sun.net.www.URLConnection
+	Modifiable ==> true
+class ==> java.net.URLConnection
+	Modifiable ==> true
+class ==> java.security.Permissions
+	Modifiable ==> true
+class ==> java.security.PermissionCollection
+	Modifiable ==> true
+class ==> java.util.zip.CRC32
+	Modifiable ==> true
+class ==> java.util.zip.Checksum
+	Modifiable ==> true
+class ==> sun.nio.ByteBuffered
+	Modifiable ==> true
+class ==> java.lang.Package
+	Modifiable ==> true
+class ==> java.util.jar.Attributes$Name
+	Modifiable ==> true
+class ==> java.io.ByteArrayOutputStream
+	Modifiable ==> true
+class ==> java.util.jar.Manifest$FastInputStream
+	Modifiable ==> true
+class ==> java.util.jar.Attributes
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$JarLoader$2
+	Modifiable ==> true
+class ==> sun.misc.Resource
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$FileLoader
+	Modifiable ==> true
+class ==> java.util.HashSet
+	Modifiable ==> true
+class ==> java.util.LinkedList$Node
+	Modifiable ==> true
+class ==> java.util.LinkedList
+	Modifiable ==> true
+class ==> java.util.AbstractSequentialList
+	Modifiable ==> true
+class ==> java.util.zip.ZipFile$ZipFileInflaterInputStream
+	Modifiable ==> true
+class ==> java.util.zip.InflaterInputStream
+	Modifiable ==> true
+class ==> java.util.zip.ZStreamRef
+	Modifiable ==> true
+class ==> java.util.zip.Inflater
+	Modifiable ==> true
+class ==> sun.misc.IOUtils
+	Modifiable ==> true
+class ==> java.util.zip.ZipFile$ZipFileInputStream
+	Modifiable ==> true
+class ==> java.util.jar.JarFile$JarFileEntry
+	Modifiable ==> true
+class ==> java.util.jar.JarEntry
+	Modifiable ==> true
+class ==> java.util.zip.ZipEntry
+	Modifiable ==> true
+class ==> sun.misc.ExtensionDependency
+	Modifiable ==> true
+class ==> sun.misc.JarIndex
+	Modifiable ==> true
+class ==> java.nio.DirectLongBufferU
+	Modifiable ==> true
+class ==> java.nio.LongBuffer
+	Modifiable ==> true
+class ==> java.nio.DirectByteBuffer
+	Modifiable ==> true
+class ==> java.nio.MappedByteBuffer
+	Modifiable ==> true
+class ==> sun.nio.ch.DirectBuffer
+	Modifiable ==> true
+class ==> sun.misc.PerfCounter$CoreCounters
+	Modifiable ==> true
+class ==> sun.misc.Perf
+	Modifiable ==> true
+class ==> sun.misc.Perf$GetPerfAction
+	Modifiable ==> true
+class ==> sun.misc.PerfCounter
+	Modifiable ==> true
+class ==> java.util.zip.ZipCoder
+	Modifiable ==> true
+class ==> java.util.ArrayDeque
+	Modifiable ==> true
+class ==> java.util.Deque
+	Modifiable ==> true
+class ==> java.util.Queue
+	Modifiable ==> true
+class ==> sun.nio.cs.UTF_16
+	Modifiable ==> true
+class ==> sun.nio.cs.UTF_16LE
+	Modifiable ==> true
+class ==> sun.nio.cs.UTF_16BE
+	Modifiable ==> true
+class ==> sun.nio.cs.ISO_8859_1
+	Modifiable ==> true
+class ==> sun.nio.cs.US_ASCII
+	Modifiable ==> true
+class ==> java.nio.charset.StandardCharsets
+	Modifiable ==> true
+class ==> java.util.jar.JavaUtilJarAccessImpl
+	Modifiable ==> true
+class ==> sun.misc.JavaUtilJarAccess
+	Modifiable ==> true
+class ==> java.util.jar.JarFile
+	Modifiable ==> true
+class ==> sun.misc.FileURLMapper
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$JarLoader$1
+	Modifiable ==> true
+class ==> sun.nio.cs.ThreadLocalCoders$2
+	Modifiable ==> true
+class ==> sun.nio.cs.ThreadLocalCoders$1
+	Modifiable ==> true
+class ==> sun.nio.cs.ThreadLocalCoders$Cache
+	Modifiable ==> true
+class ==> sun.nio.cs.ThreadLocalCoders
+	Modifiable ==> true
+class ==> java.util.zip.ZipFile$1
+	Modifiable ==> true
+class ==> sun.misc.JavaUtilZipFileAccess
+	Modifiable ==> true
+class ==> java.util.zip.ZipFile
+	Modifiable ==> true
+class ==> java.util.zip.ZipConstants
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$JarLoader
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$Loader
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath$3
+	Modifiable ==> true
+class ==> sun.net.util.URLUtil
+	Modifiable ==> true
+class ==> java.net.URLClassLoader$1
+	Modifiable ==> true
+class ==> [Lsun.instrument.TransformerManager$TransformerInfo;
+	Modifiable ==> false
+class ==> sun.instrument.TransformerManager$TransformerInfo
+	Modifiable ==> true
+class ==> sun.instrument.TransformerManager
+	Modifiable ==> true
+class ==> sun.instrument.InstrumentationImpl
+	Modifiable ==> true
+class ==> java.lang.instrument.Instrumentation
+	Modifiable ==> true
+class ==> java.lang.InternalError
+	Modifiable ==> true
+class ==> java.lang.SystemClassLoaderAction
+	Modifiable ==> true
+class ==> sun.misc.Launcher$AppClassLoader$1
+	Modifiable ==> true
+class ==> sun.net.www.protocol.jar.Handler
+	Modifiable ==> true
+class ==> sun.misc.URLClassPath
+	Modifiable ==> true
+class ==> [Ljava.security.Principal;
+	Modifiable ==> false
+class ==> java.security.Principal
+	Modifiable ==> true
+class ==> java.security.ProtectionDomain$Key
+	Modifiable ==> true
+class ==> java.security.ProtectionDomain$2
+	Modifiable ==> true
+class ==> sun.misc.JavaSecurityProtectionDomainAccess
+	Modifiable ==> true
+class ==> java.security.ProtectionDomain$JavaSecurityAccessImpl
+	Modifiable ==> true
+class ==> sun.misc.JavaSecurityAccess
+	Modifiable ==> true
+class ==> [Ljava.net.URL;
+	Modifiable ==> false
+class ==> sun.net.util.IPAddressUtil
+	Modifiable ==> true
+class ==> sun.net.www.protocol.file.Handler
+	Modifiable ==> true
+class ==> java.net.URLStreamHandler
+	Modifiable ==> true
+class ==> java.net.Parts
+	Modifiable ==> true
+class ==> java.util.BitSet
+	Modifiable ==> true
+class ==> sun.net.www.ParseUtil
+	Modifiable ==> true
+class ==> java.io.FileInputStream$1
+	Modifiable ==> true
+class ==> java.lang.CharacterDataLatin1
+	Modifiable ==> true
+class ==> java.lang.CharacterData
+	Modifiable ==> true
+class ==> sun.util.locale.LocaleUtils
+	Modifiable ==> true
+class ==> java.util.Locale$LocaleKey
+	Modifiable ==> true
+class ==> sun.util.locale.LocaleObjectCache$CacheEntry
+	Modifiable ==> true
+class ==> sun.util.locale.BaseLocale$Key
+	Modifiable ==> true
+class ==> sun.util.locale.BaseLocale$Cache
+	Modifiable ==> true
+class ==> sun.util.locale.BaseLocale
+	Modifiable ==> true
+class ==> java.util.concurrent.ConcurrentHashMap$EntrySetView
+	Modifiable ==> true
+class ==> java.util.concurrent.ConcurrentHashMap$ValuesView
+	Modifiable ==> true
+class ==> java.util.concurrent.ConcurrentHashMap$KeySetView
+	Modifiable ==> true
+class ==> java.util.concurrent.ConcurrentHashMap$CollectionView
+	Modifiable ==> true
+class ==> [Ljava.util.concurrent.ConcurrentHashMap$CounterCell;
+	Modifiable ==> false
+class ==> java.util.concurrent.ConcurrentHashMap$CounterCell
+	Modifiable ==> true
+class ==> [Ljava.util.concurrent.ConcurrentHashMap$Node;
+	Modifiable ==> false
+class ==> java.util.concurrent.ConcurrentHashMap$Node
+	Modifiable ==> true
+class ==> [Ljava.util.concurrent.ConcurrentHashMap$Segment;
+	Modifiable ==> false
+class ==> [Ljava.util.concurrent.locks.ReentrantLock;
+	Modifiable ==> false
+class ==> [Ljava.util.concurrent.locks.Lock;
+	Modifiable ==> false
+class ==> java.util.concurrent.ConcurrentHashMap$Segment
+	Modifiable ==> true
+class ==> java.util.concurrent.locks.ReentrantLock
+	Modifiable ==> true
+class ==> java.util.concurrent.locks.Lock
+	Modifiable ==> true
+class ==> java.util.concurrent.ConcurrentHashMap
+	Modifiable ==> true
+class ==> java.util.concurrent.ConcurrentMap
+	Modifiable ==> true
+class ==> java.util.Locale$Cache
+	Modifiable ==> true
+class ==> sun.util.locale.LocaleObjectCache
+	Modifiable ==> true
+class ==> java.util.Locale
+	Modifiable ==> true
+class ==> java.lang.reflect.Array
+	Modifiable ==> true
+class ==> java.util.HashMap$TreeNode
+	Modifiable ==> true
+class ==> sun.nio.cs.UTF_8$Decoder
+	Modifiable ==> true
+class ==> sun.nio.cs.StreamDecoder
+	Modifiable ==> true
+class ==> java.io.FileReader
+	Modifiable ==> true
+class ==> java.io.InputStreamReader
+	Modifiable ==> true
+class ==> java.io.BufferedReader
+	Modifiable ==> true
+class ==> java.io.Reader
+	Modifiable ==> true
+class ==> sun.misc.MetaIndex
+	Modifiable ==> true
+class ==> [Ljava.io.File;
+	Modifiable ==> false
+class ==> java.util.StringTokenizer
+	Modifiable ==> true
+class ==> sun.misc.Launcher$ExtClassLoader$1
+	Modifiable ==> true
+class ==> java.net.URLClassLoader$7
+	Modifiable ==> true
+class ==> sun.misc.JavaNetAccess
+	Modifiable ==> true
+class ==> java.util.WeakHashMap$KeySet
+	Modifiable ==> true
+class ==> java.util.Collections$SetFromMap
+	Modifiable ==> true
+class ==> [Ljava.util.WeakHashMap$Entry;
+	Modifiable ==> false
+class ==> java.util.WeakHashMap$Entry
+	Modifiable ==> true
+class ==> java.lang.ClassLoader$ParallelLoaders
+	Modifiable ==> true
+class ==> sun.security.util.Debug
+	Modifiable ==> true
+class ==> sun.misc.Launcher$Factory
+	Modifiable ==> true
+class ==> java.net.URLStreamHandlerFactory
+	Modifiable ==> true
+class ==> java.lang.Compiler$1
+	Modifiable ==> true
+class ==> java.lang.Compiler
+	Modifiable ==> true
+class ==> java.lang.IllegalArgumentException
+	Modifiable ==> true
+class ==> java.lang.System$2
+	Modifiable ==> true
+class ==> sun.misc.JavaLangAccess
+	Modifiable ==> true
+class ==> sun.io.Win32ErrorMode
+	Modifiable ==> true
+class ==> sun.misc.OSEnvironment
+	Modifiable ==> true
+class ==> [Ljava.lang.Integer;
+	Modifiable ==> false
+class ==> [Ljava.lang.Number;
+	Modifiable ==> false
+class ==> java.lang.Integer$IntegerCache
+	Modifiable ==> true
+class ==> sun.misc.NativeSignalHandler
+	Modifiable ==> true
+class ==> sun.misc.Signal
+	Modifiable ==> true
+class ==> java.lang.Terminator$1
+	Modifiable ==> true
+class ==> sun.misc.SignalHandler
+	Modifiable ==> true
+class ==> java.lang.Terminator
+	Modifiable ==> true
+class ==> java.util.LinkedHashMap$Entry
+	Modifiable ==> true
+class ==> java.io.ExpiringCache$Entry
+	Modifiable ==> true
+class ==> java.lang.ClassLoaderHelper
+	Modifiable ==> true
+class ==> java.lang.ClassLoader$NativeLibrary
+	Modifiable ==> true
+class ==> [Ljava.io.File$PathStatus;
+	Modifiable ==> false
+class ==> [Ljava.lang.Enum;
+	Modifiable ==> false
+class ==> java.lang.ClassLoader$3
+	Modifiable ==> true
+class ==> java.nio.charset.CoderResult$2
+	Modifiable ==> true
+class ==> java.nio.charset.CoderResult$1
+	Modifiable ==> true
+class ==> java.nio.charset.CoderResult$Cache
+	Modifiable ==> true
+class ==> java.nio.charset.CoderResult
+	Modifiable ==> true
+class ==> java.nio.HeapCharBuffer
+	Modifiable ==> true
+class ==> java.nio.CharBuffer
+	Modifiable ==> true
+class ==> java.lang.Readable
+	Modifiable ==> true
+class ==> sun.nio.cs.ext.DoubleByte$Encoder
+	Modifiable ==> true
+class ==> java.lang.StringCoding$StringEncoder
+	Modifiable ==> true
+class ==> java.nio.file.Path
+	Modifiable ==> true
+class ==> java.nio.file.Watchable
+	Modifiable ==> true
+class ==> java.io.File$PathStatus
+	Modifiable ==> true
+class ==> java.lang.Enum
+	Modifiable ==> true
+class ==> java.io.ExpiringCache$1
+	Modifiable ==> true
+class ==> java.util.LinkedHashMap
+	Modifiable ==> true
+class ==> java.io.ExpiringCache
+	Modifiable ==> true
+class ==> java.io.WinNTFileSystem
+	Modifiable ==> true
+class ==> java.io.FileSystem
+	Modifiable ==> true
+class ==> java.io.DefaultFileSystem
+	Modifiable ==> true
+class ==> java.io.BufferedWriter
+	Modifiable ==> true
+class ==> java.nio.Bits$1
+	Modifiable ==> true
+class ==> sun.misc.JavaNioAccess
+	Modifiable ==> true
+class ==> java.util.concurrent.atomic.AtomicLong
+	Modifiable ==> true
+class ==> java.nio.ByteOrder
+	Modifiable ==> true
+class ==> java.nio.Bits
+	Modifiable ==> true
+class ==> java.nio.HeapByteBuffer
+	Modifiable ==> true
+class ==> java.nio.ByteBuffer
+	Modifiable ==> true
+class ==> sun.nio.cs.UTF_8$Encoder
+	Modifiable ==> true
+class ==> java.nio.charset.CharsetEncoder
+	Modifiable ==> true
+class ==> sun.nio.cs.ArrayEncoder
+	Modifiable ==> true
+class ==> sun.nio.cs.UTF_8
+	Modifiable ==> true
+class ==> sun.nio.cs.Unicode
+	Modifiable ==> true
+class ==> sun.security.action.GetPropertyAction
+	Modifiable ==> true
+class ==> sun.nio.cs.StreamEncoder
+	Modifiable ==> true
+class ==> java.io.OutputStreamWriter
+	Modifiable ==> true
+class ==> java.io.Writer
+	Modifiable ==> true
+class ==> java.io.BufferedOutputStream
+	Modifiable ==> true
+class ==> java.io.PrintStream
+	Modifiable ==> true
+class ==> java.io.FilterOutputStream
+	Modifiable ==> true
+class ==> sun.reflect.misc.ReflectUtil
+	Modifiable ==> true
+class ==> java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1
+	Modifiable ==> true
+class ==> java.security.PrivilegedExceptionAction
+	Modifiable ==> true
+class ==> java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl
+	Modifiable ==> true
+class ==> java.util.concurrent.atomic.AtomicReferenceFieldUpdater
+	Modifiable ==> true
+class ==> java.io.BufferedInputStream
+	Modifiable ==> true
+class ==> java.io.FilterInputStream
+	Modifiable ==> true
+class ==> java.io.FileOutputStream
+	Modifiable ==> true
+class ==> java.io.OutputStream
+	Modifiable ==> true
+class ==> java.io.Flushable
+	Modifiable ==> true
+class ==> java.io.FileDescriptor$1
+	Modifiable ==> true
+class ==> sun.misc.JavaIOFileDescriptorAccess
+	Modifiable ==> true
+class ==> java.io.FileDescriptor
+	Modifiable ==> true
+class ==> java.io.FileInputStream
+	Modifiable ==> true
+class ==> sun.misc.Version
+	Modifiable ==> true
+class ==> java.lang.Runtime
+	Modifiable ==> true
+class ==> java.util.Hashtable$Enumerator
+	Modifiable ==> true
+class ==> java.util.Iterator
+	Modifiable ==> true
+class ==> java.util.Enumeration
+	Modifiable ==> true
+class ==> java.util.Objects
+	Modifiable ==> true
+class ==> java.util.Collections$SynchronizedSet
+	Modifiable ==> true
+class ==> java.util.Collections$SynchronizedCollection
+	Modifiable ==> true
+class ==> java.util.Hashtable$EntrySet
+	Modifiable ==> true
+class ==> java.nio.charset.CodingErrorAction
+	Modifiable ==> true
+class ==> sun.nio.cs.ext.DoubleByte$Decoder
+	Modifiable ==> true
+class ==> java.nio.charset.CharsetDecoder
+	Modifiable ==> true
+class ==> sun.nio.cs.ArrayDecoder
+	Modifiable ==> true
+class ==> sun.nio.cs.ext.DelegatableDecoder
+	Modifiable ==> true
+class ==> sun.nio.cs.ext.DoubleByte
+	Modifiable ==> true
+class ==> java.lang.StringCoding$StringDecoder
+	Modifiable ==> true
+class ==> jdk.internal.misc.TerminatingThreadLocal
+	Modifiable ==> true
+class ==> [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+	Modifiable ==> false
+class ==> [Ljava.lang.ref.WeakReference;
+	Modifiable ==> false
+class ==> [Ljava.lang.ref.Reference;
+	Modifiable ==> false
+class ==> java.lang.ThreadLocal$ThreadLocalMap$Entry
+	Modifiable ==> true
+class ==> java.lang.ThreadLocal$ThreadLocalMap
+	Modifiable ==> true
+class ==> java.lang.StringCoding
+	Modifiable ==> true
+class ==> [[C
+	Modifiable ==> false
+class ==> [Ljava.lang.Cloneable;
+	Modifiable ==> false
+class ==> sun.nio.cs.ext.GBK
+	Modifiable ==> true
+class ==> sun.nio.cs.HistoricallyNamedCharset
+	Modifiable ==> true
+class ==> java.util.TreeMap$Entry
+	Modifiable ==> true
+class ==> sun.misc.ASCIICaseInsensitiveComparator
+	Modifiable ==> true
+class ==> java.util.TreeMap
+	Modifiable ==> true
+class ==> java.util.NavigableMap
+	Modifiable ==> true
+class ==> java.util.SortedMap
+	Modifiable ==> true
+class ==> sun.reflect.DelegatingConstructorAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.NativeConstructorAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.ReflectionFactory$1
+	Modifiable ==> true
+class ==> java.lang.Class$1
+	Modifiable ==> true
+class ==> [Ljava.lang.reflect.Constructor;
+	Modifiable ==> false
+class ==> [Ljava.lang.reflect.Executable;
+	Modifiable ==> false
+class ==> sun.nio.cs.ext.ExtendedCharsets
+	Modifiable ==> true
+class ==> sun.nio.cs.AbstractCharsetProvider
+	Modifiable ==> true
+class ==> java.nio.charset.Charset$ExtendedProviderHolder$1
+	Modifiable ==> true
+class ==> java.nio.charset.Charset$ExtendedProviderHolder
+	Modifiable ==> true
+class ==> java.util.Arrays
+	Modifiable ==> true
+class ==> java.lang.reflect.ReflectAccess
+	Modifiable ==> true
+class ==> sun.reflect.LangReflectAccess
+	Modifiable ==> true
+class ==> java.lang.reflect.Modifier
+	Modifiable ==> true
+class ==> java.lang.ClassValue$ClassValueMap
+	Modifiable ==> true
+class ==> java.util.WeakHashMap
+	Modifiable ==> true
+class ==> sun.reflect.annotation.AnnotationType
+	Modifiable ==> true
+class ==> java.lang.Class$AnnotationData
+	Modifiable ==> true
+class ==> sun.reflect.generics.repository.ClassRepository
+	Modifiable ==> true
+class ==> sun.reflect.generics.repository.GenericDeclRepository
+	Modifiable ==> true
+class ==> sun.reflect.generics.repository.AbstractRepository
+	Modifiable ==> true
+class ==> [Ljava.lang.reflect.Field;
+	Modifiable ==> false
+class ==> [Ljava.lang.reflect.Member;
+	Modifiable ==> false
+class ==> [Ljava.lang.reflect.AccessibleObject;
+	Modifiable ==> false
+class ==> java.lang.Class$Atomic
+	Modifiable ==> true
+class ==> java.lang.Class$ReflectionData
+	Modifiable ==> true
+class ==> java.lang.Class$3
+	Modifiable ==> true
+class ==> java.util.concurrent.atomic.AtomicInteger
+	Modifiable ==> true
+class ==> java.lang.ThreadLocal
+	Modifiable ==> true
+class ==> sun.nio.cs.StandardCharsets$Cache
+	Modifiable ==> true
+class ==> sun.nio.cs.StandardCharsets$Classes
+	Modifiable ==> true
+class ==> sun.nio.cs.StandardCharsets$Aliases
+	Modifiable ==> true
+class ==> sun.util.PreHashedMap
+	Modifiable ==> true
+class ==> sun.nio.cs.StandardCharsets
+	Modifiable ==> true
+class ==> sun.nio.cs.FastCharsetProvider
+	Modifiable ==> true
+class ==> java.nio.charset.spi.CharsetProvider
+	Modifiable ==> true
+class ==> java.nio.charset.Charset
+	Modifiable ==> true
+class ==> java.lang.ref.Finalizer$FinalizerThread
+	Modifiable ==> true
+class ==> java.lang.Math
+	Modifiable ==> true
+class ==> [Ljava.util.Hashtable$Entry;
+	Modifiable ==> false
+class ==> java.util.Hashtable$Entry
+	Modifiable ==> true
+class ==> sun.misc.VM
+	Modifiable ==> true
+class ==> [Ljava.util.HashMap$Node;
+	Modifiable ==> false
+class ==> [Ljava.util.Map$Entry;
+	Modifiable ==> false
+class ==> java.util.HashMap$Node
+	Modifiable ==> true
+class ==> java.util.Map$Entry
+	Modifiable ==> true
+class ==> java.util.HashMap
+	Modifiable ==> true
+class ==> sun.reflect.Reflection
+	Modifiable ==> true
+class ==> [Ljava.lang.String;
+	Modifiable ==> false
+class ==> [Ljava.lang.CharSequence;
+	Modifiable ==> false
+class ==> java.lang.NoSuchMethodError
+	Modifiable ==> true
+class ==> java.lang.IncompatibleClassChangeError
+	Modifiable ==> true
+class ==> sun.misc.SharedSecrets
+	Modifiable ==> true
+class ==> java.lang.ref.Reference$1
+	Modifiable ==> true
+class ==> sun.misc.JavaLangRefAccess
+	Modifiable ==> true
+class ==> [Ljava.lang.Thread;
+	Modifiable ==> false
+class ==> [Ljava.lang.Runnable;
+	Modifiable ==> false
+class ==> java.lang.ref.ReferenceQueue$Lock
+	Modifiable ==> true
+class ==> java.lang.ref.ReferenceQueue$Null
+	Modifiable ==> true
+class ==> java.util.Collections$UnmodifiableRandomAccessList
+	Modifiable ==> true
+class ==> java.util.Collections$UnmodifiableList
+	Modifiable ==> true
+class ==> java.util.Collections$UnmodifiableCollection
+	Modifiable ==> true
+class ==> java.util.Collections$EmptyMap
+	Modifiable ==> true
+class ==> java.util.AbstractMap
+	Modifiable ==> true
+class ==> java.util.Collections$EmptyList
+	Modifiable ==> true
+class ==> java.util.Collections$EmptySet
+	Modifiable ==> true
+class ==> java.util.AbstractSet
+	Modifiable ==> true
+class ==> java.util.Set
+	Modifiable ==> true
+class ==> java.util.Collections
+	Modifiable ==> true
+class ==> java.util.ArrayList
+	Modifiable ==> true
+class ==> java.lang.InterruptedException
+	Modifiable ==> true
+class ==> java.lang.ref.Reference$ReferenceHandler
+	Modifiable ==> true
+class ==> java.lang.ref.Reference$Lock
+	Modifiable ==> true
+class ==> sun.reflect.ReflectionFactory
+	Modifiable ==> true
+class ==> java.util.Stack
+	Modifiable ==> true
+class ==> java.util.Vector
+	Modifiable ==> true
+class ==> java.util.AbstractList
+	Modifiable ==> true
+class ==> java.util.AbstractCollection
+	Modifiable ==> true
+class ==> java.util.RandomAccess
+	Modifiable ==> true
+class ==> java.util.List
+	Modifiable ==> true
+class ==> java.util.Collection
+	Modifiable ==> true
+class ==> java.lang.Iterable
+	Modifiable ==> true
+class ==> [Ljava.security.cert.Certificate;
+	Modifiable ==> false
+class ==> java.security.cert.Certificate
+	Modifiable ==> true
+class ==> sun.reflect.ReflectionFactory$GetReflectionFactoryAction
+	Modifiable ==> true
+class ==> java.security.PrivilegedAction
+	Modifiable ==> true
+class ==> java.lang.reflect.ReflectPermission
+	Modifiable ==> true
+class ==> java.security.AccessController
+	Modifiable ==> true
+class ==> java.lang.RuntimePermission
+	Modifiable ==> true
+class ==> java.security.BasicPermission
+	Modifiable ==> true
+class ==> java.security.Permission
+	Modifiable ==> true
+class ==> java.security.Guard
+	Modifiable ==> true
+class ==> [Ljava.lang.StackTraceElement;
+	Modifiable ==> false
+class ==> [Ljava.lang.ThreadGroup;
+	Modifiable ==> false
+class ==> [Ljava.lang.Thread$UncaughtExceptionHandler;
+	Modifiable ==> false
+class ==> java.lang.String$CaseInsensitiveComparator
+	Modifiable ==> true
+class ==> java.util.Comparator
+	Modifiable ==> true
+class ==> [Ljava.io.ObjectStreamField;
+	Modifiable ==> false
+class ==> [Ljava.lang.Comparable;
+	Modifiable ==> false
+class ==> java.io.ObjectStreamField
+	Modifiable ==> true
+class ==> [Ljava.lang.OutOfMemoryError;
+	Modifiable ==> false
+class ==> [Ljava.lang.VirtualMachineError;
+	Modifiable ==> false
+class ==> [Ljava.lang.Error;
+	Modifiable ==> false
+class ==> [Ljava.lang.Throwable;
+	Modifiable ==> false
+class ==> java.lang.ArithmeticException
+	Modifiable ==> true
+class ==> java.lang.NullPointerException
+	Modifiable ==> true
+class ==> [Ljava.lang.Class;
+	Modifiable ==> false
+class ==> [Ljava.io.Serializable;
+	Modifiable ==> false
+class ==> [Ljava.lang.reflect.GenericDeclaration;
+	Modifiable ==> false
+class ==> [Ljava.lang.reflect.AnnotatedElement;
+	Modifiable ==> false
+class ==> [Ljava.lang.reflect.Type;
+	Modifiable ==> false
+class ==> [Ljava.lang.Object;
+	Modifiable ==> false
+class ==> java.lang.Long
+	Modifiable ==> true
+class ==> java.lang.Integer
+	Modifiable ==> true
+class ==> java.lang.Short
+	Modifiable ==> true
+class ==> java.lang.Byte
+	Modifiable ==> true
+class ==> java.lang.Double
+	Modifiable ==> true
+class ==> java.lang.Float
+	Modifiable ==> true
+class ==> java.lang.Number
+	Modifiable ==> true
+class ==> java.lang.Character
+	Modifiable ==> true
+class ==> java.lang.Boolean
+	Modifiable ==> true
+class ==> java.nio.Buffer
+	Modifiable ==> true
+class ==> java.lang.StackTraceElement
+	Modifiable ==> true
+class ==> java.security.CodeSource
+	Modifiable ==> true
+class ==> sun.misc.Launcher$ExtClassLoader
+	Modifiable ==> true
+class ==> sun.misc.Launcher$AppClassLoader
+	Modifiable ==> true
+class ==> sun.misc.Launcher
+	Modifiable ==> true
+class ==> java.util.jar.Manifest
+	Modifiable ==> true
+class ==> java.net.URL
+	Modifiable ==> true
+class ==> java.net.URLClassLoader
+	Modifiable ==> true
+class ==> java.io.File
+	Modifiable ==> true
+class ==> java.io.ByteArrayInputStream
+	Modifiable ==> true
+class ==> java.io.InputStream
+	Modifiable ==> true
+class ==> java.io.Closeable
+	Modifiable ==> true
+class ==> java.lang.AutoCloseable
+	Modifiable ==> true
+class ==> sun.misc.Unsafe
+	Modifiable ==> true
+class ==> java.lang.StringBuilder
+	Modifiable ==> true
+class ==> java.lang.StringBuffer
+	Modifiable ==> true
+class ==> java.lang.AbstractStringBuilder
+	Modifiable ==> true
+class ==> java.lang.Appendable
+	Modifiable ==> true
+class ==> java.lang.invoke.VolatileCallSite
+	Modifiable ==> true
+class ==> java.lang.invoke.MutableCallSite
+	Modifiable ==> true
+class ==> java.lang.invoke.ConstantCallSite
+	Modifiable ==> true
+class ==> java.lang.invoke.CallSite
+	Modifiable ==> true
+class ==> java.lang.BootstrapMethodError
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodType
+	Modifiable ==> true
+class ==> java.lang.invoke.LambdaForm
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandleNatives
+	Modifiable ==> true
+class ==> java.lang.invoke.MemberName
+	Modifiable ==> true
+class ==> java.lang.invoke.DirectMethodHandle
+	Modifiable ==> true
+class ==> java.lang.invoke.MethodHandle
+	Modifiable ==> true
+class ==> sun.reflect.CallerSensitive
+	Modifiable ==> true
+class ==> java.lang.annotation.Annotation
+	Modifiable ==> true
+class ==> sun.reflect.UnsafeStaticFieldAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.UnsafeFieldAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.FieldAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.FieldAccessor
+	Modifiable ==> true
+class ==> sun.reflect.ConstantPool
+	Modifiable ==> true
+class ==> sun.reflect.DelegatingClassLoader
+	Modifiable ==> true
+class ==> sun.reflect.ConstructorAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.ConstructorAccessor
+	Modifiable ==> true
+class ==> sun.reflect.MethodAccessorImpl
+	Modifiable ==> true
+class ==> sun.reflect.MethodAccessor
+	Modifiable ==> true
+class ==> sun.reflect.MagicAccessorImpl
+	Modifiable ==> true
+class ==> java.lang.reflect.Constructor
+	Modifiable ==> true
+class ==> java.lang.reflect.Method
+	Modifiable ==> true
+class ==> java.lang.reflect.Executable
+	Modifiable ==> true
+class ==> java.lang.reflect.Parameter
+	Modifiable ==> true
+class ==> java.lang.reflect.Field
+	Modifiable ==> true
+class ==> java.lang.reflect.Member
+	Modifiable ==> true
+class ==> java.lang.reflect.AccessibleObject
+	Modifiable ==> true
+class ==> java.util.Properties
+	Modifiable ==> true
+class ==> java.util.Hashtable
+	Modifiable ==> true
+class ==> java.util.Dictionary
+	Modifiable ==> true
+class ==> java.util.Map
+	Modifiable ==> true
+class ==> java.lang.ThreadGroup
+	Modifiable ==> true
+class ==> java.lang.Thread$UncaughtExceptionHandler
+	Modifiable ==> true
+class ==> java.lang.Thread
+	Modifiable ==> true
+class ==> java.lang.Runnable
+	Modifiable ==> true
+class ==> java.lang.ref.ReferenceQueue
+	Modifiable ==> true
+class ==> java.lang.ref.Finalizer
+	Modifiable ==> true
+class ==> sun.misc.Cleaner
+	Modifiable ==> true
+class ==> java.lang.ref.PhantomReference
+	Modifiable ==> true
+class ==> java.lang.ref.FinalReference
+	Modifiable ==> true
+class ==> java.lang.ref.WeakReference
+	Modifiable ==> true
+class ==> java.lang.ref.SoftReference
+	Modifiable ==> true
+class ==> java.lang.ref.Reference
+	Modifiable ==> true
+class ==> java.lang.IllegalMonitorStateException
+	Modifiable ==> true
+class ==> java.lang.StackOverflowError
+	Modifiable ==> true
+class ==> java.lang.OutOfMemoryError
+	Modifiable ==> true
+class ==> java.lang.VirtualMachineError
+	Modifiable ==> true
+class ==> java.lang.ArrayStoreException
+	Modifiable ==> true
+class ==> java.lang.ClassCastException
+	Modifiable ==> true
+class ==> java.lang.NoClassDefFoundError
+	Modifiable ==> true
+class ==> java.lang.LinkageError
+	Modifiable ==> true
+class ==> java.lang.ClassNotFoundException
+	Modifiable ==> true
+class ==> java.lang.ReflectiveOperationException
+	Modifiable ==> true
+class ==> java.security.SecureClassLoader
+	Modifiable ==> true
+class ==> java.security.AccessControlContext
+	Modifiable ==> true
+class ==> java.security.ProtectionDomain
+	Modifiable ==> true
+class ==> java.lang.SecurityManager
+	Modifiable ==> true
+class ==> java.lang.RuntimeException
+	Modifiable ==> true
+class ==> java.lang.Exception
+	Modifiable ==> true
+class ==> java.lang.ThreadDeath
+	Modifiable ==> true
+class ==> java.lang.Error
+	Modifiable ==> true
+class ==> java.lang.Throwable
+	Modifiable ==> true
+class ==> java.lang.System
+	Modifiable ==> true
+class ==> java.lang.ClassLoader
+	Modifiable ==> true
+class ==> java.lang.Cloneable
+	Modifiable ==> true
+class ==> java.lang.Class
+	Modifiable ==> true
+class ==> java.lang.reflect.Type
+	Modifiable ==> true
+class ==> java.lang.reflect.GenericDeclaration
+	Modifiable ==> true
+class ==> java.lang.reflect.AnnotatedElement
+	Modifiable ==> true
+class ==> java.lang.String
+	Modifiable ==> true
+class ==> java.lang.CharSequence
+	Modifiable ==> true
+class ==> java.lang.Comparable
+	Modifiable ==> true
+class ==> java.io.Serializable
+	Modifiable ==> true
+class ==> java.lang.Object
+	Modifiable ==> true
+class ==> [J
+	Modifiable ==> false
+class ==> [I
+	Modifiable ==> false
+class ==> [S
+	Modifiable ==> false
+class ==> [B
+	Modifiable ==> false
+class ==> [D
+	Modifiable ==> false
+class ==> [F
+	Modifiable ==> false
+class ==> [C
+	Modifiable ==> false
+class ==> [Z
+	Modifiable ==> false
