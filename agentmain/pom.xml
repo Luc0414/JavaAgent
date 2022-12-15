@@ -14,12 +14,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/javassist/javassist -->
+        <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
         <dependency>
-            <groupId>javassist</groupId>
+            <groupId>org.javassist</groupId>
             <artifactId>javassist</artifactId>
-            <version>3.12.1.GA</version>
+            <version>3.29.2-GA</version>
         </dependency>
+
 
     </dependencies>
     <build>
@@ -43,8 +44,8 @@
                             <addClasspath>true</addClasspath>
                         </manifest>
                         <manifestEntries>
-                            <Premain-Class>com.luc.agentmain.agentmain</Premain-Class>
-                            <Agent-Class>com.luc.agentmain.agentmain</Agent-Class>
+                            <Premain-Class>com.luc.agentmain.SpringBootAgent</Premain-Class>
+                            <Agent-Class>com.luc.agentmain.SpringBootAgent</Agent-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>

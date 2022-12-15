@@ -1,2 +1,4 @@
-com\luc\agentmain\DefineTransformer.class
+com\luc\agentmain\SpringBootDefineTransformer.class
 com\luc\agentmain\agentmain.class
+com\luc\agentmain\DefineTransformer.class
+com\luc\agentmain\SpringBootAgent.class
